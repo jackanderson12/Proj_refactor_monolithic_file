@@ -4,6 +4,7 @@
 #include "../includes/constants.h"
 #include "../includes/utils.h"
 
+
 //sorts vector inplace based on mySortOrder (inplace means the vector is modified)
 //returns nothing
 void sortData(const SORT_ORDER &mySortOrder,vector<process> &myProcesses){
