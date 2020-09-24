@@ -5,6 +5,7 @@
 
 #include <vector>
 #include <string>
+#include <iostream>
 #include "constants.h"
 
 int loadData(const std::string filename, vector<process> &myProcesses);

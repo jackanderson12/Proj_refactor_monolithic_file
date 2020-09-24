@@ -4,6 +4,7 @@
 #define UTILS_H
 
 #include <vector>
+#include <iostream>
 #include "constants.h"
 
 void sortData(const SORT_ORDER &mySortOrder,vector<process> &myProcesses);
