@@ -1,5 +1,6 @@
 /* utils.cpp */
 
+#include <iostream>
 #include <vector>
 #include "../includes/constants.h"
 #include "../includes/utils.h"
