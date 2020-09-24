@@ -1,6 +1,7 @@
 /* fileio.cpp */
 
 #include <vector>
+#include <String>
 #include "../includes/constants.h"
 #include "../includes/fileio.h"
 
