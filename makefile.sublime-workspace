@@ -3,14 +3,75 @@
 	{
 		"selected_items":
 		[
+			[
+				"inc",
+				"include"
+			],
+			[
+				"io",
+				"iostream\tstandard header"
+			],
+			[
+				"C",
+				"CFLAGS"
+			],
+			[
+				"vect",
+				"vector\tstandard header"
+			],
+			[
+				"st",
+				"string\tstandard header"
+			],
+			[
+				"ve",
+				"vector\tstandard header"
+			],
+			[
+				"CON",
+				"constants"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "utils/utils.cpp",
+			"settings":
+			{
+				"buffer_size": 781,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/makefile",
+			"settings":
+			{
+				"buffer_size": 706,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -38,8 +99,25 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/janderson/Proj_refactor_monolithic_file",
+		"/home/janderson/Proj_refactor_monolithic_file/fileio",
+		"/home/janderson/Proj_refactor_monolithic_file/includes",
+		"/home/janderson/Proj_refactor_monolithic_file/src",
+		"/home/janderson/Proj_refactor_monolithic_file/utils"
+	],
 	"file_history":
 	[
+		"/home/janderson/Proj_refactor_monolithic_file/src/makefile",
+		"/home/janderson/Proj_refactor_monolithic_file/includes/utils.h",
+		"/home/janderson/Proj_refactor_monolithic_file/includes/fileio.h",
+		"/home/janderson/Proj_refactor_monolithic_file/includes/constants.h",
+		"/home/janderson/Proj_refactor_monolithic_file/fileio/fileio.cpp",
+		"/home/janderson/Proj_refactor_monolithic_file/src/proj_refactor_file.cpp",
+		"/home/janderson/Proj_refactor_monolithic_file/utils/utils.cpp",
+		"/home/janderson/Proj_refactor_monolithic_file/makefile",
+		"/home/janderson/Proj_refactor_monolithic_file/proj_refactor_file.cpp"
 	],
 	"find":
 	{
@@ -74,8 +152,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "utils/utils.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/makefile",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -85,7 +220,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -110,6 +245,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -156,7 +295,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 304.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

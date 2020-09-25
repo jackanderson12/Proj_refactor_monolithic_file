@@ -4,7 +4,6 @@
 #define CONSTANTS_H
 
 #include <string>
-#include <vector>
 #include <iostream>
 
 //default files to read and write data

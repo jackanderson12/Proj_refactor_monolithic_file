@@ -15,7 +15,6 @@
 #include "../includes/utils.h"
 using namespace std;
 
-
 int main() {
 	vector<process> myProcesses;
 
